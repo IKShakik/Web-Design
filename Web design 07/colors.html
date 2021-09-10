@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>HTML Colors</title>
+			<link rel="stylesheet" href="css/colors.css" type="text/css">
+		</head>
+		
+		<body>
+			<div class="main">
+				<div class="header">
+					<h2>HTMLCSS Training Center</h2>
+					<h3>Bangladesh</h3>
+				</div>
+				<div class="menu-wrap">
+					<nav class="menu">
+						<ul class="clearfix">
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#">CSS <span class="arrow">&#9660;</span></a>
+				 
+								<ul class="sub-menu">
+									<li><a href="CSS Properties/">Syntex</a></li>
+									<li><a href="colors.html">CSS Colors</a></li>
+									<li><a href="background.html">CSS Background</a></li>
+									<li><a href="borders.html">CSS Borders</a></li>
+									<li><a href="margin & padding.html">CSS Margins</a></li>
+									<li><a href="margin & padding.html">CSS Padding</a></li>
+									<li><a href="box model & outline.html">CSS Box Model</a></li>
+									<li><a href="box model & outline.html">CSS Outline</a></li>
+									<li><a href="text.html">CSS Text</a></li>
+								</ul>
+							</li>
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">Java Script</a></li>
+							<li class="current-item"><a href="#">Photos</a></li>
+							<li><a href="#">Site Help</a></li>
+						</ul>
+					</nav>
+				</div>
+				
+				<div class="maincontent">
+					<div class="content">
+						<div class="c1">
+							<h2>CSS Colors</h2>
+						</div>
+				<div class="c2">
+					<p>We can colored a HTML page in 3 different way. They are:</p>
+					<ul>
+						<li>Using color name. Like: "Red"</li>
+						<li>Using RGB value.  Like: "rgb(255,0,0)"</li>
+						<li>Using HEX value.  Like: "#ff0000"</li>
+					</ul>
+					
+					<p>
+						<b>Note:</b>
+						<ul>
+							<li>Color name is not case-sensitive. Like: Red, RED & red are same.</li>
+							<li>HTML and CSS supports 140 standard color names.</li>
+						</ul>
+			<pre>
+		How to use color in different HTML Tags?
+		Ans:
+							
+			Color:(This specifies the text color.)
+							
+				1) color:"red"; 
+				2) color:"rgb(0, 0, 0)";
+				3) color:#ffffff;
+								
+			Background-color:(This specifies the background color.)	
+							
+				1)background-color: red;
+				2)background-color: rgb(0, 0, 0);
+				3)background-color: #ffff00;
+								
+			Border-color:(This specifies the border color.)
+							
+				1)border-color: red;
+				2)border-color: rgb(0, 0, 0);
+				3)border-color: #dddfff;
+			</pre>
+				</div>
+				<div class="c3">
+					<h2>CSS3 Colors</h2>
+					<p>
+					css3 also support the following way to color. They are:</p>
+						<ul>
+							<li>RGBA colors</li>
+							<li>HSL colors</li>
+							<li>HSLA colors</li>
+							<li>opacity</li>
+						</ul>
+						
+						<p>RGBA = rgba(red, green, blue, alpha).</p>
+						<p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque)-which specifies the opacity for a color.</p>
+						<p>For example:</p>
+						<p>color: rgba(255, 0, 0, 0.2);</p>
+						<div style="background: rgba(255, 0, 0, 0.2);padding:18px">rgba(255, 0, 0, 0.2);</div>
+						<div style="background: rgba(255, 0, 0, 0.4);padding:18px">rgba(255, 0, 0, 0.4);</div>
+						<div style="background: rgba(255, 0, 0, 0.6);padding:18px">rgba(255, 0, 0, 0.6);</div>
+						<div style="background: rgba(255, 0, 0, 0.8);padding:18px">rgba(255, 0, 0, 0.8);</div>
+				</div>
+					<div class="c4">
+						<h2>HSL Colors</h2>
+						<p>HSL stands for Hue, Saturation and Lightness.</p>
+						<p>An HSL color value is specified with: hsl(hue, saturation, lightness).</p>
+						<ol>
+							<li>
+								Hue is a degree on the color wheel (from 0 to 360):
+								<ul>
+									<li>0 (or 360) is red</li>
+									<li>120 is green</li>
+									<li>240 is blue</li>
+								</ul>
+							</li>
+							<li>Saturation is a percentage value: 100% is the full color.</li>
+							<li>Lightness is also a percentage; 0% is dark (black) and 100% is white.</li>
+						</ol>
+						<div style="background: hsl(0, 100%, 30%);padding:18px">hsl(0, 100%, 30%);</div>
+						<div style="background: hsl(0, 100%, 50%);padding:18px">hsl(0, 100%, 50%);</div>
+						<div style="background: hsl(0, 100%, 70%);padding:18px">hsl(0, 100%, 70%);</div>
+						<div style="background: hsl(0, 100%, 90%);padding:18px">hsl(0, 100%, 90%);</div>
+					</div>
+					<div class="c5">
+						<h2>HSLA Colors</h2>
+						<p>HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity for a color.</p>
+						<p>An HSLA color value is specified with: hsla(hue, saturation, lightness, alpha),</p><p> where the alpha parameter defines the opacity.</p> <p>The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</p>
+						<div style="background: hsla(0, 100%, 30%, 0.3);padding:18px">hsla(0, 100%, 30%, 0.3);</div>
+						<div style="background: hsla(0, 100%, 50%, 0.3);padding:18px">hsla(0, 100%, 50%, 0.3);</div>
+						<div style="background: hsla(0, 100%, 70%, 0.3);padding:18px">hsla(0, 100%, 70%, 0.3);</div>
+						<div style="background: hsla(0, 100%, 90%, 0.3);padding:18px">hsla(0, 100%, 90%, 0.3);</div>
+						<p class="w3-margin-top">The following example defines different HSLA colors:</p>
+					
+					</div>
+					<div class="c6">
+						<h2>Opacity</h2>
+						<p>
+						The CSS3
+						<code class="w3-codespan">opacity</code>
+						property sets the opacity for the whole element (both background color and text will be opaque/transparent).
+						</p>
+						<p>
+						The
+						<code class="w3-codespan">opacity</code>
+						property value must be a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+						</p>
+						<div style="background:rgb(255, 0, 0);opacity:0.2;padding:18px">rgb(255, 0, 0);opacity:0.2;</div>
+						<div style="background:rgb(255, 0, 0);opacity:0.4;padding:18px">rgb(255, 0, 0);opacity:0.4;</div>
+						<div style="background:rgb(255, 0, 0);opacity:0.6;padding:18px">rgb(255, 0, 0);opacity:0.6;</div>
+						<div style="background:rgb(255, 0, 0);opacity:0.8;padding:18px">rgb(255, 0, 0);opacity:0.8;</div>
+						<p class="w3-margin-top">Notice that the text above will also be transparent/opaque!</p>
+					</div>
+				<div class="footer">
+					<p><b>&copy;HTML CSS Training Center Bangladesh-2016.All Right Reseved.</b></p>
+				</div>
+			</div>
+		</body>
+	</html>
