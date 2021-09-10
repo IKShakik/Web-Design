@@ -1,0 +1,44 @@
+/*==================================
+            css for navbar
+====================================*/
+.head nav.navbar ul li {
+    padding: 0px 5px;
+}
+
+.head nav.navbar ul li.nav-item:hover {
+    background: #E6FAFB;
+    color: #33CCCC !important;
+}
+
+.head nav.navbar ul li:first-child:hover,  .head nav.navbar ul li:last-child:hover{
+    background: none;
+    color: #4e555b !important;
+}
+
+.head .dropdown .dropdown-menu > a {
+    border-bottom: 1px solid #ccc;
+    padding: .75rem 1.5rem;
+}
+
+.head .dropdown .dropdown-menu > a:last-child {
+    border-bottom: none;
+}
+
+.head .dropdown .dropdown-menu > a:hover {
+    color: #33CCCC;
+    background-color: #FFFFFF;
+}
+
+.icon-custom {
+    font-size: 1.25em;
+}
+.icons{
+    font-size: 1.5rem;
+    margin-left: -40px;
+    color: #FF9933;
+    margin-top: 5px;
+}
+
+.navbar form input.form-control{
+    border-radius: 1.5rem;
+}

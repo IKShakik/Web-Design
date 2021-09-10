@@ -1,0 +1,89 @@
+
+.front .section{
+    padding: 80px 0;
+}
+
+/*==========================
+    finding markets section
+============================ */
+.front .section-finding-markets{
+    background: url("../img/Main-Banner-Image.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+/*==========================
+    platform-help section
+============================ */
+.section-platform-help p.box-content{
+    font-size: 17px;
+}
+
+/*==========================
+    Right market section
+============================ */
+.section-right-market p.box-content{
+    padding: 0 5rem;
+}
+/*==========================
+ Streamlined Request section
+============================ */
+.front .section-streamlined-request{
+    background: url("../img/Use-Our-Streamlined-BG.jpg") no-repeat;
+}
+/*==========================
+    job-easier section
+============================ */
+.section-job-easier ul li{
+    line-height: 2rem;
+    font-size: 25px;
+    list-style-position: inside;
+}
+.section-job-easier ul li > span{
+    font-size: 16px;
+}
+.section-job-easier ul li h6{
+    /*font-size: 19px;*/
+    /*font-weight: 500;*/
+}
+.section-job-easier ul li img, .section-job-easier ul li h6, .section-job-easier ul li h5{
+    /*margin-left: -100px !important;*/
+}
+.section-job-easier ul li h6 a, .section-job-easier ul a{
+    border-bottom: 2px solid #FF6600;
+    color: #FF6600;
+}
+
+
+@media (max-width: 800px){
+    .section-right-market p.box-content{
+        padding: 0 0rem;
+    }
+    .custom-flex-column{
+        width: 100% !important;
+        flex-direction: column !important;
+    }
+}
+@media (min-width: 801px){
+    .flex-width{
+        flex: 1 !important;
+    }
+    .custom-arro:before {
+        content: url("../img/Arrow.png");
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #666666;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 22%;
+        left: 0;
+        -webkit-transform: translate(-125%, -50%);
+        -ms-transform: translate(-125%, -50%);
+        transform: translate(-125%, -50%);
+        text-align: right;
+    }
+}

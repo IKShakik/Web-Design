@@ -1,0 +1,23 @@
+.card-header{
+    border-top: 5px solid #33CCCC;
+    /*padding-bottom: 19px;*/
+}
+.font-30{
+    font-size: 30px !important;
+}
+
+.font-15{
+    font-size: 15px !important;
+}
+.card-header h3.card-title a{
+    font-size: 30px;
+}
+.card-header small{
+    font-size: 14px;
+}
+.card-body .card-text{
+    font-size: 15px;
+}
+.card-footer a{
+    font-size: 16px;
+}

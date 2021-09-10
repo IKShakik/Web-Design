@@ -1,0 +1,234 @@
+/*==========================================
+            company-details css
+============================================*/
+#banner {
+    background: url("../img/company-details/company-detail-banner.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section-recent-update img.img-fluid.pl-0.py-3.pr-3 {
+    height: 85%;
+    width: 100%;
+}
+.our-product a.text-muted.float-right.align-self-center.font-weight-bold:hover{
+    color: #33CCCC !important;
+}
+.section-nav-tabs{
+    border-bottom: 2px solid #33CCCC;
+}
+.section-nav-tabs .nav.nav-tabs{
+    margin-bottom: 1px;
+}
+.section-nav-tabs .nav-tabs .nav-item{
+    margin-bottom: -3px;
+}
+.section-nav-tabs a.nav-item.nav-link.active{
+    border-width: 2px;
+    border-bottom-width: 0px;
+    color: #1DC9CD !important;
+    border-color: #33CCCC;
+    background-color: #fff;
+}
+.section-nav-tabs a.nav-item.nav-link{
+    background-color: darkturquoise;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #33CCCC;
+}
+#right-sidebar .card {
+    border-bottom: 5px solid #ccc;
+}
+#right-sidebar .list-group-item a.text-turquoise:hover {
+    color: #FF6600 !important;
+    /*font-weight:700;*/
+    border-bottom: 2px solid #FF6600;
+}
+.section-company-details-content-main #nav-program a.text-muted:hover {
+    color: darkturquoise !important;
+}
+.section-company-details-content-main #nav-applications div.row.border-top.py-4 {
+    border-color: #1DC9CD !important;
+}
+
+.section-recent-update-news p{
+    font-size: 17px;
+}
+.section-recent-update-news a.text-dark{
+    border-bottom: 3px solid darkturquoise !important;
+}
+.section-recent-update-news span.text-dark{
+    font-size: 14px;
+}
+
+.section-recent-update-news span a{
+    font-size: 22px;
+}
+
+/*==============================
+    css for new inner page
+================================*/
+ul li{
+    list-style-position: inside;
+}
+
+#pills-home p,
+#pills-tabContent ul li,
+#pills-tabContent ul li span,
+#nav-news p,
+#nav-news ul li span{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #212529;
+}
+
+.file-upload {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ccc;
+}
+.file-upload-wrapper .card.card-body .file-upload-message {
+    position: relative;
+    top: 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.file-upload-wrapper .card.card-body .file-upload-message p.file-upload-error {
+    color: #f34141;
+    font-weight: 700;
+    display: none;
+}
+.file-upload-wrapper .card.card-body .file-upload-message p {
+    margin: 5px 0 0;
+}
+.file-upload .mask.rgba-stylish-slight {
+    opacity: 0;
+    -webkit-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+.file-upload-wrapper .card.card-body .file-upload-errors-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background: rgba(243, 65, 65, .8);
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s linear .15s, opacity .15s linear;
+    -o-transition: visibility 0s linear .15s, opacity .15s linear;
+    transition: visibility 0s linear .15s, opacity .15s linear;
+}
+.file-upload-wrapper .card.card-body input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+.file-upload-wrapper .card.card-body .btn.btn-sm.btn-danger {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 7;
+    top: 10px;
+    right: 10px;
+    -webkit-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+.file-upload-wrapper .card.card-body .file-upload-preview {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.file-upload-wrapper .card.card-body .file-upload-preview .file-upload-infos {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+.file-upload-wrapper .card.card-body .file-upload-preview .file-upload-infos .file-upload-infos-inner {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -40%);
+    -ms-transform: translate(0, -40%);
+    transform: translate(0, -40%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    padding: 0 20px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.file-upload-wrapper .card.card-body .file-upload-preview .file-upload-infos .file-upload-infos-inner p {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 700;
+}
+.file-upload-wrapper .card.card-body .file-upload-preview .file-upload-infos .file-upload-infos-inner p.file-upload-infos-message {
+    margin-top: 15px;
+    padding-top: 15px;
+    font-size: 12px;
+    position: relative;
+    opacity: .5;
+}

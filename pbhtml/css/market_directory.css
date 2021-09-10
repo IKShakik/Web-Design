@@ -1,0 +1,171 @@
+
+body {
+    background: #F9F9F9;
+}
+
+.page-wrapper-outer {
+    padding: 0 25px;
+}
+
+.page-wrapper-inner {
+    background: #FFFFFF;
+}
+
+/*===================================
+    section-market-directory-banner
+=====================================*/
+.section-market-directory-banner {
+    margin-right: -25px !important;
+    margin-left: -25px !important;
+    background: url("../img/market_directory/market_banner.png") no-repeat center;
+    background-size: cover;
+}
+
+input.form-control.mr-sm-2 {
+    padding: 29px;
+    width: 74%;
+    border-radius: 0px;
+    border: 3px solid #cccccc;
+}
+
+.section-market-directory-banner ul li.list-group-item {
+    background-color: #E6FAFB;
+}
+
+/*======================================
+    section-filter-company
+========================================*/
+.section-filter-company .list-inline-item {
+    margin-right: .90rem;
+}
+
+.section-filter-company .vertical-line {
+    height: 65%;
+    margin-top: -21px;
+    border-color: #CCCCCC;
+    left: 17%;
+    right: 83%;
+}
+
+.section-filter-company div.card.rounded-0.border-0:hover {
+    box-shadow: none !important;
+}
+
+/*======================================
+    section-market-directory-main
+========================================*/
+.section-market-directory-main h3.font-weight-bold.text-primary {
+    font-size: 24px;
+}
+.custom-list-group {
+    /*box-shadow: 3px 1px 8px 5px #999;*/
+    border-bottom: 1px solid #999999;
+    padding: 1.25rem;
+}
+
+/* separator*/
+.vertical-line {
+    border-left: 2px solid #cb9a00;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+span.vertical-line {
+    /*margin-top: -64px;*/
+}
+.card-active, .card:hover {
+    box-shadow: 2px 2px 12px 4px #CCCCCC;
+}
+h3.market-directory-custom-heading {
+    padding-top: .5rem;
+}
+
+img.market-directory-custom-img {
+    margin-top: -45px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.section-market-directory-main ul li a.btn, .modal-btn {
+    /*padding: 7px 30px;*/
+    /*background-color: #FF6600;*/
+    /*color: #FFFFFF !important;*/
+    /*border-bottom: 5px solid #993300;*/
+}
+
+.section-market-directory-banner ul li a.text-muted:hover, .section-market-directory-main ul li a.text-muted:hover {
+    color: #33CCCC !important;
+}
+
+/*==================================
+               Modal css
+====================================*/
+.modal-body .form-control {
+    padding: 1.375rem 0.75rem;
+    border-radius: 0px;
+}
+
+.modal-body .form-group {
+    margin-bottom: 5px !important;
+}
+
+div.modal-body.bg-primary {
+    padding: 30px !important;
+}
+
+/*=========================================
+            card header right
+===========================================*/
+a.card-link {
+    background-color: #CCCCCC;
+    color: #333333;
+    display: flex;
+    font-family: Roboto Condensed Bold;
+    font-size: 18px;
+    padding: 8px 17px 8px 17px;
+}
+
+div.card.rounded-0.border-0:hover {
+    box-shadow: 2px 2px 12px 4px #CCCCCC;
+}
+
+li.list-group-item a:hover {
+    color: #33CCCC;
+}
+
+
+/*=========================================
+            responsiveness
+===========================================*/
+@media (max-width: 375px){
+    .section-market-directory-banner h2{
+        font-size: 1.75rem;
+    }
+    .section-market-directory-banner .form-inline{
+        width: 100% !important;
+    }
+    input.form-control.mr-sm-2 {
+        width: 100% !important;
+    }
+    .section-market-directory-banner img{
+        margin-right: 100%;
+    }
+}
+@media (min-width: 376px) and (max-width: 480px){
+    .section-market-directory-banner h2{
+        font-size: 1.75rem;
+    }
+    .section-market-directory-banner .form-inline{
+        width: 100% !important;
+    }
+    input.form-control.mr-sm-2 {
+        width: 100% !important;
+    }
+    .section-market-directory-banner img{
+        margin-right: 100% !important;
+    }
+}

@@ -1,0 +1,13 @@
+.front .section-leadership-banner{
+    background: url("../img/leadership/leadership-banner.jpg") no-repeat center center;
+    background-size: cover;
+    margin-top: 93px;
+}
+.section-leadership-content-main .list-group {
+    border-color: #cccccc !important;
+}
+.section-leadership-content-main ul.list-inline {
+    margin-bottom: 0 !important;
+}
+
+
